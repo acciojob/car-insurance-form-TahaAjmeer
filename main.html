@@ -7,10 +7,50 @@
 </head>
 
 <body>
+	<form method="post" action ="">
+		<divl>
+			<label for="name">Name8</label>
+			<input type="text" name="name" id="name" placeholder="fill your name" required>
+			
+		</divl><br>
+		<br>
+		<div>
+			<label for="email">Email*</label>
+			<input type="email" name="email" id="email" placeholder="write your email address" required>
+		</div><br>
+		<div>
+			<label for="gender">Gender*</label>
+			<input type="radio" name="gender" id="gender_m" value="Male" required>Male
+			<input type="radio" name="gender" id="gender_f" value="Female" required>Female
+		</div><br>
+		<div>
+			<label for="cars">Car Brands</label>
+			<select id="cars" name="cars">
+				<option value="" disabled selected>--please choose options--</option>
+				<option value="BMW">BMW</option>
+				<option value="Audi">Audi</option>
+				<option value="Mercedez">Mercedez</option>
+			</select>
+		</div><br>
+		<div>
+			<label for="carage">Car Age*</label>
+			<input type="number" name="carage" id="carage" placehoolder="write down date" required>
+		</div><br>
+		<div>
+			<label for="dop">Date Of Purchase(dop)*</label>
+			<input type="date" name="dop" id="dop" required>
+		</div><br>
+		<div>
+			<label for="password">Password*</label>
+			<input type="password" name="password" id="password" placeholder="write your password" required>
+		</div><br>
+		<div>
+			<button type="submit">submit</button>
+		</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+	</form>
 </body>
 
 </html>
